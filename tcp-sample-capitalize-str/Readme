@@ -1,0 +1,26 @@
+Here is a client/server example in C. ---- USING TCP -----
+the server capitalize the sentence given by the client
+
+This is the same example which is provided in the textbook using Java.
+
+You can compile/execute the provided client/server application in Unix environment, as follows.
+
+Download the following files:
+client.c
+server.c
+Makefile
+To construct executable client and server programs, use
+> make
+
+Run server with an arbitrary port number (should be greater than 1024), on a host.
+you can find the hostname by using
+> hostname
+xxxxxxx
+
+> server 1534
+
+
+then in another window or in another host run
+> client xxxxxxx 1534
+Sentence : type your sentence and press enter.
+
